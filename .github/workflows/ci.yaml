@@ -35,7 +35,7 @@ jobs:
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SOURCE: "dist/angular-thing"
-          REMOTE_HOST: "ec2-18-209-51-2"
+          REMOTE_HOST: "ec2-18-209-51-2.compute-1.amazonaws.com"
           REMOTE_USER: "ubuntu"
           TARGET: "/var/www/html/angular-thing/"
         
